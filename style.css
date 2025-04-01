@@ -1,6 +1,108 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-body {
+body {background-color: #cde4f9;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
 
 }
+
+h1,
+h2,
+h3 {font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+  }
+
+  h1 {font-size: 48px;
+    text-align: center;
+    line-height: 1,2;
+
+  }
+
+
+  h2 {font-size: 32px;
+    line-height: 1,2;
+
+  }
+
+
+  h3 {line-height: 1,2;
+    font-size: 24px;
+    color: #dc6aa1;
+    margin-top: 48px  ;
+
+  }
+
+  section {font-size: 20px;
+    line-height: 1,4;
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 20px 0;
+    padding: 30px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+
+  }
+
+  .autor {text-align: center;
+    color: #dc6aa1;
+
+  }
+
+  .perex {font-size: 24px;
+    color: #808080;
+    text-align: center;
+    font-style: italic;
+
+  }
+
+  .uvod img {border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    width: 300px ;
+
+  }
+
+  .eiffel {float: right;
+    margin: 0 20px 20px 20px;
+    width: 300px;
+    height: 225px;
+    border-radius: 8px;
+
+  }
+
+  .oblouk {float: left;
+    margin: 0 20px 20px 0;
+    width: 300px;
+    height: 225px;
+    border-radius: 8px;
+
+  }
+
+  .louvre {float: right;
+    margin: 0 20px 20px 20px;
+    width: 300px;
+    height: 225px;
+    border-radius: 8px;
+
+  }
+
+  .montmarte {float: left;
+    margin: 0 20px 20px 0;
+    width: 300px;
+    height: 225px;
+    border-radius: 8px;
+
+  }
+
+  .zahrady {width: 100%;
+    margin: 20px 0;
+
+  }
